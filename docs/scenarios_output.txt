@@ -1,0 +1,15 @@
+total book DV01 (1bp parallel, full reval): -0.166969
+
+parallel shifts (full reval vs linear DV01 approximation):
+  -100bp: full_reval=-17.7043  linear_approx=-16.6969  convexity_residual=-1.0073
+  -50bp: full_reval=-8.5532  linear_approx=-8.3485  convexity_residual=-0.2047
+  +50bp: full_reval=8.2480  linear_approx=8.3485  convexity_residual=-0.1004
+  +100bp: full_reval=16.4230  linear_approx=16.6969  convexity_residual=-0.2740
+
+2s10s steepening twist (+/-25bp each leg):
+  +25bp: full_reval=1.0021
+  -25bp: full_reval=-0.9188
+
+25bp funding shock (cash Treasury financing cost, 20-day assumed holding period):
+  +25bp: pnl=0.027778
+  -25bp: pnl=-0.027778

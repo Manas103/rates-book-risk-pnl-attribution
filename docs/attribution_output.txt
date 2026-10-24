@@ -1,0 +1,15 @@
+platform: Windows-11-10.0.26200-SP0
+python: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+curve tenors: [1, 2, 3, 5, 7, 10, 15, 20, 30]
+book size: 40 positions
+simulated 250 sessions (seed=77061)
+attribution computed for 249 sessions in 0.27s
+gross P&L (sum of |actual daily P&L|): 115.0135
+total curve component: -0.3662
+total carry component: -0.6306
+total spread component: 0.0186
+total residual: -0.0051
+total actual P&L: -0.9833
+gross residual (sum of |residual|): 0.1939
+pct of gross P&L unexplained: 0.1686%
+max |((curve+carry+spread+residual) - actual)| across all 249 sessions: 0.00e+00

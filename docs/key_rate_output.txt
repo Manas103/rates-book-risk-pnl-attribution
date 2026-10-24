@@ -1,0 +1,10 @@
+key-rate nodes: [1, 2, 5, 10, 20, 30]
+  KR DV01 at 1y: 0.000008
+  KR DV01 at 2y: -0.009545
+  KR DV01 at 5y: -0.022264
+  KR DV01 at 10y: -0.047833
+  KR DV01 at 20y: 0.000056
+  KR DV01 at 30y: -0.087469
+sum of key-rate DV01s: -0.167047
+total (parallel) DV01: -0.166969
+pct difference: 0.0462% (target: within 0.3%)
