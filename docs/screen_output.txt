@@ -1,0 +1,27 @@
+=== Instrument families priced off one curve ===
+{
+  "families_priced_off_one_curve": {
+    "cash_treasury": true,
+    "future": true,
+    "swap": true,
+    "forward_starting_swap": true
+  },
+  "all_four_present": true
+}
+
+=== Screen: 2-sigma candidates, DV01-neutral sizing, cost-reversed direction ===
+{
+  "n_sessions": 500,
+  "n_metrics_screened": 9,
+  "z_threshold": 2.0,
+  "n_two_sigma_candidates": 262,
+  "n_reversed_by_cost": 60,
+  "reversed_pct": 22.900763358778626,
+  "dv01_neutral_check": {
+    "n_trade_shapes_checked": 9,
+    "max_abs_net_dv01_usd": 5.421010862427522e-20,
+    "max_gross_leg_dv01_usd": 0.003423803677089393,
+    "max_oracle_diff_usd": 1.5258789062500054e-05,
+    "meets_tolerance": true
+  }
+}
